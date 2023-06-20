@@ -1,11 +1,12 @@
 <div class="container">
     <div class="row g-5">
-        <div class="col-md-5 py-4">
+        <!-- Carousel -->
+        <div class="col-md-5 py-4 d-none d-md-block">
             <div>
-                <img class="img-fluid" src="assets/Images/sign-up-banner.png">
-                
+                <app-login-carousel></app-login-carousel>
             </div>
         </div>
+        <!-- Sign-Up -->
         <div class="col-md-7 py-4 ps-5">
             <div>
                 <img class="logo" src="assets/Images/Logo.png">
@@ -74,7 +75,7 @@
                     </mat-checkbox>
                 </div>
                 <div class="col-md-12 mt-2 mb-4">
-                    <button class="btn btn-primary w-100 mb-2">Create Account</button>
+                    <button class="btn btn-primary w-100 mb-2" routerLink="/dashboard">Create Account</button>
                     <div class="text-center mt-2">
                         Already have an account? <a href="#">Login</a>
                     </div>
@@ -82,7 +83,7 @@
                 <div class="col-md-5 mb-3">
                     <hr>
                 </div>
-                <div class="col-md-2 px-0">
+                <div class="col-md-2 text-center px-0">
                     <div class="sign-up">
                         Or Sign up with
                     </div>
@@ -90,17 +91,17 @@
                 <div class="col-md-5">
                     <hr>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2 mb-md-0">
                     <button class="btn btn-social-media">
                         <img src="assets/Images/icons/facebook.png">
                     </button>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2 mb-md-0">
                     <button class="btn btn-social-media">
                         <img src="assets/Images/icons/gmail.png">
                     </button>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2 mb-md-0">
                     <button class="btn btn-social-media">
                         <img src="assets/Images/icons/apple.png">
                     </button>

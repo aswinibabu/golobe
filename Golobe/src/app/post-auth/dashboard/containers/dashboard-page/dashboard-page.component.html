@@ -17,7 +17,7 @@
                 </div>
             </div>
         </div>
-        <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="initial-tab">
+        <mat-tab-group [selectedIndex]="defaultTabIndex" (selectedTabChange)="onTabChanged($event)" mat-stretch-tabs="false" mat-align-tabs="start" class="initial-tab">
          
             <mat-tab >
                 <ng-template mat-tab-label>
@@ -27,7 +27,7 @@
              Accounts
             </mat-tab>
       
-            <mat-tab>
+            <mat-tab selectedIndex="1">
                 <ng-template mat-tab-label>
                  
                     Ticket Booking

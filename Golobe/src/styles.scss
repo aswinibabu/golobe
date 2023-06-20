@@ -134,3 +134,18 @@ select {
     }
    
 }
+
+
+//Carousel
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    width: 20px !important;
+    background-color: #8DD3BB !important;
+}
