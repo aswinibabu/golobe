@@ -2,6 +2,10 @@
     position: absolute;
     right: 20px;
     bottom: 20px;
+    @media (max-width:600px){
+        right: 10px;
+        bottom: 54px;
+    }
 }
 .card-section {
     margin-bottom: 12rem;
