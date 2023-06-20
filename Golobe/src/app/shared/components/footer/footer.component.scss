@@ -1,0 +1,22 @@
+.footer-bg {
+    background: #8dd3bb;
+}
+.footer-text li {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 5px;
+    &:first-child {
+        font-family: TradeGothic LT Extended;
+        font-weight: 700;
+        font-size: 16px;
+        list-style: none;
+    }
+}
+.footer-bg-white {
+    background: #fafbfc;
+}
+.bg-footer {
+    background: #fff;
+}

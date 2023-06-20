@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class LoginComponent implements OnInit {
+  passwordHide = true;
   slides: any[] = new Array(3).fill({ id: -1, src: '', title: '', subtitle: '' });
   constructor() { }
 

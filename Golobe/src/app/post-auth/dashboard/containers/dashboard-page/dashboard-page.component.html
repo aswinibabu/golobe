@@ -1,0 +1,47 @@
+<div class="dashboard-bg pt-5">
+    <div class="container ">
+        <div class="banner card-section position-relative">
+            <img class="img-fluid" src="assets/Images/dashboard-banner.png">
+            <button class="btn btn-primary banner-btn">
+                <img class="me-2" src="assets/Images/icons/upload.png">
+                Upload new cover
+            </button>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="banner-profile">
+                    <img src="assets/Images/banner-profile.png">
+                    <div class="profile-icon">
+                        <i class="fa-solid fa-pen"></i>
+                    </div>
+                    <p class="text-center profile-name mb-0">John Deo.</p>
+                    <p class="text-center ">john.deo@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="start" class="initial-tab">
+         
+            <mat-tab >
+                <ng-template mat-tab-label>
+                    
+                    Account
+                  </ng-template>
+             Accounts
+            </mat-tab>
+      
+            <mat-tab>
+                <ng-template mat-tab-label>
+                 
+                    Ticket Booking
+                  </ng-template>
+                  <app-ticket-booking></app-ticket-booking>
+            </mat-tab>
+            <mat-tab>
+                <ng-template mat-tab-label>
+                 
+                    Payment Methods
+                  </ng-template>
+                 Payent Methods
+            </mat-tab>
+        </mat-tab-group>
+     
+    </div>
+</div>

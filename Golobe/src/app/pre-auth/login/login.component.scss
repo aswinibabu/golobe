@@ -1,13 +1,26 @@
-.signup-left{
-    width: 340px;
+.logo {
+    width: 90px;
 }
-h3{
+h3 {
     font-size: 40px;
-    font-weight: 600;
-    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-weight: bold;
+    font-family: "TradeGothic LT Extended";
+    font-style: normal;
 }
-p{
-    font-family: 'Montserrat', sans-serif;
-    font-Weight:400;
-    font-Size:16px;
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.form-field .mat-form-field-label-wrapper .mat-form-field-flex {
+    border: 1px solid #000 !important;
+    background-color: #fff;
+    padding: 0px 11px !important;
+    box-shadow: none !important;
+}
+.sign-up {
+    margin-top: 5px;
+    color: #112211;
+    opacity: 37%;
+    font-size: 14px;
 }

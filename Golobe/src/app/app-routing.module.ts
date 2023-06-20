@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path:'',
     loadChildren : ()=>import('./pre-auth/pre-auth.module'). then (m=>m.PreAuthModule)
+  },
+  {
+    path:'',
+    loadChildren : ()=>import('./post-auth/post-auth.module'). then (m=>m.PostAuthModule)
   }
 ];
 

@@ -1,0 +1,50 @@
+.subscribe-news-letter-wrapper {
+    background: rgb(250, 251, 252);
+    background: linear-gradient(
+        180deg,
+        rgba(250, 251, 252, 1) 0%,
+        rgba(250, 251, 252, 1) 50%,
+        rgba(141, 211, 176, 1) 50%,
+        rgba(141, 211, 176, 1) 100%
+    );
+    .subscribe-news-letter-card {
+        background: #cdeae1;
+        border-radius: 15px;
+        min-height: 200px;
+    }
+}
+.footer-header {
+    font-size: 44px;
+    font-weight: bold;
+    font-family: "TradeGothic LT Extended";
+    font-style: normal;
+    line-height: 54px;
+}
+.footer-header-text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "TradeGothic LT Extended";
+    font-style: normal;
+}
+.footer-content {
+    font-size: 16px;
+    font-family: "TradeGothic LT Extended";
+    font-style: normal;
+}
+.footer-form {
+    background: #ffffff;
+    border-radius: 4px;
+    border: none;
+    padding: 15px;
+}
+.btn-subscribe {
+    background: #112211;
+    color: #fff;
+}
+.w-78 {
+    width: 78%;
+}
+
+.text-right{
+    text-align: right;
+}
